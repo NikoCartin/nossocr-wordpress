@@ -1,0 +1,18 @@
+# WordPress secrets and environment files
+wp-config.php
+.env
+.env.*
+
+# Database exports and archives
+*.sql
+*.sql.gz
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+
+# User-generated, private, or generated data
+/wp-content/uploads/
+/wp-content/cache/
+/wp-content/upgrade/
+/wp-content/backups/
