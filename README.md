@@ -4,7 +4,11 @@ Public portfolio repository for the NossoCR storefront project in Costa Rica.
 
 ## Project overview
 
-Built and managed a WordPress and WooCommerce storefront for a Costa Rican multi-brand fashion retailer. The work brought product catalogs, promotions, WhatsApp commerce, search visibility, and visual merchandising together in one customer-facing experience.
+As Lead Developer, Nicolás Cartín Reyes developed the storefront from scratch using Elementor for page building, WordPress theme selection and customization, and custom PHP, HTML, and CSS. The experience brings product catalogs, promotions, WhatsApp commerce, search visibility, and visual merchandising together for a Costa Rican multi-brand fashion retailer.
+
+## Storefront preview
+
+![NossoCR storefront homepage](assets/nosso-storefront.png)
 
 ## Project focus
 
