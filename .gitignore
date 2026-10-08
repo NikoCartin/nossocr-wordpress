@@ -11,8 +11,8 @@ wp-config.php
 *.tar.gz
 *.tgz
 
-# User-generated, private, or generated data
-/wp-content/uploads/
-/wp-content/cache/
-/wp-content/upgrade/
-/wp-content/backups/
+# User-generated, private, or generated data at any path depth
+wp-content/uploads/
+wp-content/cache/
+wp-content/upgrade/
+wp-content/backups/
