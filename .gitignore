@@ -12,7 +12,11 @@ wp-config.php
 *.tgz
 
 # User-generated, private, or generated data at any path depth
-wp-content/uploads/
-wp-content/cache/
-wp-content/upgrade/
-wp-content/backups/
+**/wp-content/uploads/
+**/wp-content/uploads/**
+**/wp-content/cache/
+**/wp-content/cache/**
+**/wp-content/upgrade/
+**/wp-content/upgrade/**
+**/wp-content/backups/
+**/wp-content/backups/**
