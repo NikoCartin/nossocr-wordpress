@@ -23,10 +23,10 @@ Nicolás Cartín Reyes, Lead Developer
 - Portfolio: https://nikocartin.github.io/
 - GitHub profile: https://github.com/NikoCartin
 
-## Repository status
+## Source status
 
-This repository currently contains the public project overview. The original site-source archive was not received with the project materials. Add only code that has been reviewed and cleared for public release.
+The supplied archive is a full hosting snapshot, not a curated source bundle. This repository currently contains the portfolio case study only. No standalone, site-authored theme or plugin code was identified in the archive review. Only original code that is verified and cleared for public release will be added.
 
 ## Security and data handling
 
-Never commit production database exports, customer or order data, credentials, private keys, `wp-config.php`, `.env` files, backups, or private media to this public repository. Sanitize and review all files before publication.
+Production configuration, database exports, customer or order data, logs, private media, WordPress core, and third-party themes or plugins are intentionally excluded. Review and sanitize every file before public release.
