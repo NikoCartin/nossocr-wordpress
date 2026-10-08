@@ -23,10 +23,10 @@ Nicolás Cartín Reyes, Lead Developer
 - Portfolio: https://nikocartin.github.io/
 - GitHub profile: https://github.com/NikoCartin
 
-## Source status
+## Curated source
 
-The supplied archive is a full hosting snapshot, not a curated source bundle. This repository currently contains the portfolio case study only. No standalone, site-authored theme or plugin code was identified in the archive review. Only original code that is verified and cleared for public release will be added.
+The reviewed export contained a small set of site-specific customizations saved in WordPress. Sanitized excerpts are in [`custom-code/`](custom-code/): one active PHP snippet, two Customizer CSS entries, and two Elementor HTML widgets with the live WhatsApp number replaced by `WHATSAPP_NUMBER`. No custom JavaScript or standalone custom theme/plugin source was identified in the reviewed files.
 
 ## Security and data handling
 
-Production configuration, database exports, customer or order data, logs, private media, WordPress core, and third-party themes or plugins are intentionally excluded. Review and sanitize every file before public release.
+The full hosting archive and database are not included. Production configuration, customer or order data, logs, private media, WordPress core, and third-party themes or plugins are excluded. Review and sanitize any future contribution before public release.

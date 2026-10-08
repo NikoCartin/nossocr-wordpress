@@ -1,0 +1,113 @@
+/* =========================================================
+   MINI CART DE ELEMENTOR
+   ========================================================= */
+.elementor-menu-cart__product-name a,
+.elementor-menu-cart__product-name a:visited,
+.elementor-menu-cart__product-name a:focus {
+    color: #1F1F1F !important;
+    text-decoration: none !important;
+    transition: color 0.3s ease;
+}
+
+.elementor-menu-cart__product-name a:hover,
+.elementor-menu-cart__product-name a:active {
+    color: #785C00 !important;
+}
+
+
+/* =========================================================
+   META LINKS EN PÁGINA DE PRODUCTO
+   categorías, tags, marca, etc.
+   ========================================================= */
+.single-product .product_meta a,
+.single-product .posted_in a,
+.single-product .tagged_as a,
+.single-product .sku_wrapper a {
+    color: #1F1F1F !important;
+    text-decoration: none !important;
+    transition: color 0.3s ease;
+}
+
+.single-product .product_meta a:hover,
+.single-product .posted_in a:hover,
+.single-product .tagged_as a:hover,
+.single-product .sku_wrapper a:hover {
+    color: #785C00 !important;
+}
+
+
+/* =========================================================
+   PRODUCTOS RELACIONADOS
+   ========================================================= */
+.related.products ul.products li.product .woocommerce-loop-product__title,
+.related.products ul.products li.product a .woocommerce-loop-product__title {
+    color: #1F1F1F !important;
+    transition: color 0.3s ease;
+}
+
+.related.products ul.products li.product a:hover .woocommerce-loop-product__title,
+.related.products ul.products li.product:hover .woocommerce-loop-product__title {
+    color: #785C00 !important;
+}
+
+
+/* =========================================================
+   TAMBIÉN TE RECOMENDAMOS / CROSS-SELLS / UPSELLS
+   ========================================================= */
+body.single-product section.up-sells.upsells.products ul.products li.product > a:first-of-type,
+body.single-product section.up-sells.upsells.products ul.products li.product > a:first-of-type h2.woocommerce-loop-product__title {
+    color: #1F1F1F !important;
+    text-decoration: none !important;
+    transition: color 0.3s ease !important;
+}
+
+body.single-product section.up-sells.upsells.products ul.products li.product > a:first-of-type:hover,
+body.single-product section.up-sells.upsells.products ul.products li.product > a:first-of-type:hover h2.woocommerce-loop-product__title,
+body.single-product section.up-sells.upsells.products ul.products li.product:hover > a:first-of-type h2.woocommerce-loop-product__title {
+    color: #785C00 !important;
+}
+
+
+/* =========================================================
+   LINKS DE PRODUCTO EN CARRITO
+   ========================================================= */
+.woocommerce-cart .product-name a,
+.woocommerce-cart .product-name a:visited,
+.woocommerce-cart .product-name a:focus {
+    color: #1F1F1F !important;
+    text-decoration: none !important;
+    transition: color 0.3s ease;
+}
+
+.woocommerce-cart .product-name a:hover,
+.woocommerce-cart .product-name a:active {
+    color: #785C00 !important;
+}
+
+
+/* =========================================================
+   LINK "CAMBIAR DIRECCIÓN" EN CARRITO
+   ========================================================= */
+.woocommerce-cart .shipping-calculator-button,
+.woocommerce-cart .shipping-calculator-button:visited,
+.woocommerce-cart .shipping-calculator-button:focus {
+    color: #1F1F1F !important;
+    text-decoration: none !important;
+    transition: color 0.3s ease;
+}
+
+.woocommerce-cart .shipping-calculator-button:hover,
+.woocommerce-cart .shipping-calculator-button:active {
+    color: #785C00 !important;
+}
+
+.etww-search-results a.search-result-link.clr,
+.etww-search-results a.search-result-link.clr .result-title,
+.etww-search-results a.all-results,
+.etww-search-results a.all-results span {
+  color: #111 !important;
+}
+
+.etww-search-results .all-results {
+  display: none !important;
+}
