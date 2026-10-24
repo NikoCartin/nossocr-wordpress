@@ -20,3 +20,9 @@ wp-config.php
 **/wp-content/upgrade/**
 **/wp-content/backups/
 **/wp-content/backups/**
+# Exclude private catalog exports by default; only reviewed examples may be published.
+*.csv
+!examples/
+!examples/*.csv
+*.xlsx
+*.xls

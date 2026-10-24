@@ -4,11 +4,22 @@ Public portfolio repository for the NossoCR storefront project in Costa Rica.
 
 ## Project overview
 
-As Lead Developer, Nicolás Cartín Reyes developed the storefront from scratch using Elementor for page building, WordPress theme selection and customization, and custom PHP, HTML, and CSS. The experience brings product catalogs, promotions, WhatsApp commerce, search visibility, and visual merchandising together for a Costa Rican multi-brand fashion retailer.
+As Lead Developer, Nícolas Cartín Reyes developed the storefront from scratch using Elementor for page building, WordPress theme selection and customization, and custom PHP, HTML, and CSS. The experience brings product catalogs, promotions, WhatsApp commerce, search visibility, and visual merchandising together for a Costa Rican multi-brand fashion retailer.
 
 ## Storefront preview
 
 ![NossoCR storefront homepage](assets/nosso-storefront.png)
+
+## Featured case study: Bulk Catalog Upload for WooCommerce
+
+A Melissa catalog update carried from data review through validated WooCommerce imports, image preparation, unique SEO titles and descriptions, and campaign artwork. The work reviewed 840 catalog rows, updated 22 products and 255 variations, loaded 21 products and 204 variations, and prepared 21 unique product titles and descriptions.
+
+- [Read the complete case study](case-studies/woocommerce-bulk-catalog-upload.md)
+- [View the sanitized SEO-copy sample](examples/seo_titles_descriptions_sample_en.csv)
+- [View the original vertical campaign artwork](assets/nosso-melissa-reels-en.png)
+- [View the optimized WebP artwork](assets/nosso-melissa-reels-en.webp)
+
+The published artifacts are limited to aggregate results, the reviewed SEO-copy sample, and the approved portfolio graphic. No store exports, SKU lists, prices, inventory values, barcodes, orders, customer data, or credentials are included.
 
 ## Project focus
 
@@ -20,7 +31,7 @@ As Lead Developer, Nicolás Cartín Reyes developed the storefront from scratch 
 
 ## Project lead
 
-Nicolás Cartín Reyes, Lead Developer
+Nícolas Cartín Reyes, Lead Developer
 
 ## Public portfolio
 
@@ -33,4 +44,6 @@ The reviewed export contained a small set of site-specific customizations saved 
 
 ## Security and data handling
 
-The full hosting archive and database are not included. Production configuration, customer or order data, logs, private media, WordPress core, and third-party themes or plugins are excluded. Review and sanitize any future contribution before public release.
+The full hosting archive and database are not included. Production configuration, customer or order data, logs, private media, WordPress core, third-party themes or plugins, and raw catalog exports are excluded. Review and sanitize any future contribution before public release.
+
+Brand logos and trademarks belong to their respective owners and are shown for portfolio purposes only.
