@@ -10,9 +10,9 @@ As Lead Developer, Nícolas Cartín Reyes developed the storefront from scratch 
 
 ![NossoCR storefront homepage](assets/nosso-storefront.png)
 
-## Featured case study: Bulk Catalog Upload for WooCommerce
+## Featured case study: NossoCR Melissa Catalog, SEO, and Campaign Update
 
-A Melissa catalog update carried from data review through validated WooCommerce imports, image preparation, unique SEO titles and descriptions, and campaign artwork. The work reviewed 840 catalog rows, updated 22 products and 255 variations, loaded 21 products and 204 variations, and prepared 21 unique product titles and descriptions.
+Three workstreams: prepared WooCommerce bulk-import files for 21 new products and updates to 22 existing products; wrote and validated 21 unique SEO titles and short descriptions; and designed Spanish and English Melissa Reels artwork. The final full catalog and SEO import was not confirmed.
 
 - [Read the complete case study](case-studies/woocommerce-bulk-catalog-upload.md)
 - [View the sanitized SEO-copy sample](examples/seo_titles_descriptions_sample_en.csv)
