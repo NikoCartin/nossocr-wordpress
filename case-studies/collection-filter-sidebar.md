@@ -1,46 +1,48 @@
-# NossoCR Collection Filtering: Desktop Sidebar and Mobile Drawer
+# NossoCR Collection and Shop Filtering: Desktop Sidebar and Mobile Bottom Sheet
 
 **Project:** NossoCR, a multi-brand fashion retailer in Costa Rica
 **Platform:** WordPress and WooCommerce
 **Role:** Nícolas Cartín Reyes, Lead Developer
 **Date:** October 2026
-**Status:** Deployed and validated on representative collection pages
+**Status:** Deployed and validated on the shop and representative collection pages
 
 ## Overview
 
-A product-discovery improvement pairing contextual Color and Size filters with a responsive experience: a desktop sidebar and a mobile/tablet bottom sheet. The work combined product attributes, AJAX filtering, archive composition, custom front-end integration, accessibility and release verification.
+A product-discovery improvement that adds independent Categories and Brands filters to the shop while preserving the established contextual Color and Size filters on leaf-category and brand archives. The work combines responsive filtering, archive composition, accessibility, and release verification.
 
-Filters are available only where shoppers are choosing products: leaf categories and brand collections. Parent categories remain navigation-focused. The direction and technical delivery were led by **Nícolas Cartín Reyes, Lead Developer**.
+The shop and collection contexts select the appropriate facet set. Parent categories remain navigation-focused without filter controls. The direction and technical delivery were led by **Nícolas Cartín Reyes, Lead Developer**.
 
 ## The problem
 
-A shared filter widget did not meet the experience requirements on its own. A large block competed with the collection, broad parent pages exposed filters too early, and a persistent sidebar did not suit narrow screens. The experience needed to keep options contextual while matching each screen size.
+A shared filter widget did not meet the experience requirements on its own. Shoppers needed to refine the full shop by category and brand without replacing the proven Color and Size experience in collection archives. The experience also needed to keep options contextual while matching each screen size.
 
 ## Contextual filtering
 
-The storefront's existing commerce filtering capability was reused to provide Color and Size choices based on the active collection. Multiple values can be selected within an attribute. Parent categories remain focused on navigation rather than exposing product filters.
+At `/tienda/`, Categories and Brands are available as independent shop facets. Multiple selections within a taxonomy use OR behavior, and shoppers can combine a category with a brand. Available options reflect the current view.
 
-The available terms are not a guarantee of stock for every exact color-and-size variation. This project did not add a variation-stock engine.
+The existing Color and Size filtering on leaf-category and brand archives remains unchanged. The shop preset is separate, so each context presents the correct facets. Parent categories remain focused on navigation rather than exposing product filters.
+
+The available terms are not a guarantee of stock for every exact product variation. This project did not add a variation-stock engine.
 
 ## Responsive experience
 
-On desktop, filters sit in a sidebar beside the product collection. On mobile and tablet, a «Filtrar y ordenar» control opens a bottom sheet with filter choices, close and backdrop dismissal, keyboard Escape support, clear and apply actions, focus and scroll management, and reduced-motion behavior. The product grid remains suited to the smaller viewport, and ineligible archive pages do not display filter controls.
+At widths above 1024 px, shop filters sit in a desktop sidebar beside the product collection. At 1024 px or below, a «Filtrar y ordenar» control opens a bottom sheet with filter choices, close and backdrop dismissal, keyboard Escape support, clear and apply actions, focus and scroll management, and reduced-motion behavior. The product grid remains suited to the smaller viewport, and ineligible archive pages do not display filter controls.
 
 ## Release and verification
 
-The deployed experience was checked on normal canonical collection URLs. After an initial stale-cache issue, the published view was rechecked without relying on a cache-busting URL. Responsive QA covered 390 px mobile, 768 px tablet and 1280 px desktop, with representative leaf, parent and brand pages. All 19 recorded checks passed, including drawer interaction, AJAX filtering, apply/clear behavior and horizontal overflow.
+An initial cache issue was resolved and caching was reenabled before final validation. Nineteen new shop and regression checks passed at 390 px and 1280 px using a diagnostic query parameter, covering responsive interaction, filtering, reset behavior, horizontal overflow, and the established Verde Musgo filter path. Separate live checks on normal canonical URLs verified the shop panel, a Bottoms plus Lunender combination, and clean resets; these are not added retroactively to the 19-check total.
 
-The Playwright evidence recorded an initial HTTP 403 for one navigation even though the page DOM rendered and its assertions passed. A separate direct iPhone check returned HTTP 200. These are reported distinctly; passing DOM checks are not presented as proof of a 200 response for that Playwright navigation or universal availability.
+The Playwright evidence recorded an initial HTTP 403 for one navigation even though the page DOM rendered and its assertions passed. Final direct Chrome and iPhone checks of the canonical URL returned HTTP 200 from the cached current page. These results are reported distinctly; passing DOM checks are not presented as proof of a 200 response for the earlier Playwright navigation or universal availability.
 
 ## Results and limits
 
 | Workstream | Outcome |
 | --- | --- |
-| Product discovery | Contextual Color and Size filtering |
-| Desktop | Sidebar beside the collection |
-| Mobile/tablet | Bottom sheet for filters and actions |
-| Eligibility | Leaf categories and brand collections, not parent navigation pages |
-| Responsive verification | 19/19 recorded checks passed at three viewport sizes |
+| Product discovery | Independent Categories and Brands filters in the shop; established Color and Size filters retained in collection archives |
+| Desktop | Shop sidebar above 1024 px |
+| Mobile/tablet | Shop bottom sheet at 1024 px or below |
+| Eligibility | Context-specific facets; parent navigation pages remain filter-free |
+| Responsive verification | 19/19 new shop and regression checks passed at 390 px and 1280 px |
 
 Conversion rate, revenue, abandonment, time to find a product and search-ranking impact were not measured. This case documents a deployed capability, not an unmeasured CRO uplift. No exact-variation stock guarantee is implied.
 

@@ -23,11 +23,12 @@ The published artifacts are limited to aggregate results, the reviewed SEO-copy 
 
 ## Featured case study: Collection Filtering and Responsive UX
 
-A deployed product-discovery improvement led by **Nícolas Cartín Reyes, Lead Developer**. Contextual Color and Size filters appear on leaf categories and brand collections, with a desktop sidebar and a mobile/tablet drawer. Parent categories remain navigation-focused.
+A deployed product-discovery improvement led by **Nícolas Cartín Reyes, Lead Developer**. The shop now offers independent Categories and Brands filters, while the established Color and Size filters on leaf-category and brand archives remain unchanged. Parent categories remain navigation-focused.
 
 - [Read the complete sanitized case study](case-studies/collection-filter-sidebar.md)
-- 19/19 responsive checks passed across representative pages at 390 px, 768 px and 1280 px.
-- The automated evidence records an initial HTTP 403 separately from successful DOM assertions; a distinct direct iPhone check returned HTTP 200.
+- Shop filters use a desktop sidebar above 1024 px and a mobile/tablet bottom sheet at 1024 px or below.
+- 19/19 new shop and regression checks passed at 390 px and 1280 px. Separate canonical-page checks also verified a Categories plus Brands combination and reset behavior.
+- The automated evidence records an initial HTTP 403 separately from successful DOM assertions; final direct Chrome and iPhone canonical-page checks returned HTTP 200 from the cached current page.
 - Production implementation and detailed operational materials remain in the private maintenance repository. This public case study contains narrative only.
 - Conversion/CRO outcomes were not measured, and filter terms do not guarantee inventory for every exact product variation.
 
@@ -36,7 +37,7 @@ A deployed product-discovery improvement led by **Nícolas Cartín Reyes, Lead D
 | Case study | Technical focus | Delivery status |
 | --- | --- | --- |
 | [Melissa Catalog, SEO, and Campaign Update](case-studies/woocommerce-bulk-catalog-upload.md) | Catalog validation, SEO copy, and bilingual campaign design | Files and artwork prepared; final catalog/SEO import not confirmed |
-| [Collection Filtering and Responsive UX](case-studies/collection-filter-sidebar.md) | Contextual filtering, responsive archive UX, accessibility, and release QA | Deployed; 19 representative responsive checks passed |
+| [Collection Filtering and Responsive UX](case-studies/collection-filter-sidebar.md) | Contextual Categories, Brands, Color, and Size filtering with responsive UX and release QA | Deployed; 19 new shop and regression checks passed |
 
 ## Project focus
 
