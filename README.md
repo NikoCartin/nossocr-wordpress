@@ -32,12 +32,22 @@ A deployed product-discovery improvement led by **Nícolas Cartín Reyes, Lead D
 - Production implementation and detailed operational materials remain in the private maintenance repository. This public case study contains narrative only.
 - Conversion/CRO outcomes were not measured, and filter terms do not guarantee inventory for every exact product variation.
 
+## Featured case study: Cart, Checkout and Shipping UX
+
+Improvements led by **Nícolas Cartín Reyes, Lead Developer**: mobile product images in the cart, a simpler totals presentation, Costa Rica-specific address fields, required customer contact, shared billing/delivery address choice, conditional shipping controls and an initial Correos delivery selection that respects later customer choices.
+
+- [Read the sanitized cart and checkout case study](case-studies/cart-checkout-workflow.md).
+- Manual-assisted and automated checks covered desktop and mobile Chromium, without creating orders or payments.
+- Focused validation of the latest initial shipping choice passed, but the broader audit retains address-transfer, shipping-choice and empty-filter findings pending their own regression. The full purchase workflow is not represented as approved.
+- Implementation and detailed evidence remain private. No conversion or revenue impact has been measured.
+
 ## Case-study index
 
 | Case study | Technical focus | Delivery status |
 | --- | --- | --- |
 | [Melissa Catalog, SEO, and Campaign Update](case-studies/woocommerce-bulk-catalog-upload.md) | Catalog validation, SEO copy, and bilingual campaign design | Files and artwork prepared; final catalog/SEO import not confirmed |
 | [Collection Filtering and Responsive UX](case-studies/collection-filter-sidebar.md) | Contextual Categories, Brands, Color, and Size filtering with responsive UX and release QA | Deployed; 19 new shop and regression checks passed |
+| [Cart, Checkout and Shipping UX](case-studies/cart-checkout-workflow.md) | Mobile cart clarity, address/contact handling, shipping conditions and workflow QA | Improvements deployed; full workflow approval remains pending |
 
 ## Project focus
 
@@ -65,3 +75,7 @@ The reviewed export contained a small set of site-specific customizations saved 
 The full hosting archive and database are not included. Production configuration, customer or order data, logs, private media, WordPress core, third-party themes or plugins, and raw catalog exports are excluded. Review and sanitize any future contribution before public release.
 
 Brand logos and trademarks belong to their respective owners and are shown for portfolio purposes only.
+
+## Continuous documentation
+
+[Contribution guidance](AGENTS.md) records the Lead Developer's request to document every authorized NossoCR improvement in GitHub, preserve attribution and validation limits, and keep public material sanitized.
