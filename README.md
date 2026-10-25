@@ -21,6 +21,21 @@ Three workstreams: prepared WooCommerce bulk-import files for 21 new products an
 
 The published artifacts are limited to aggregate results, the reviewed SEO-copy sample, and the approved portfolio graphic. No store exports, SKU lists, prices, inventory values, barcodes, orders, customer data, or credentials are included.
 
+## Featured case study: Collection Filtering and Desktop Sidebar
+
+A deployed product-discovery improvement led by **Nícolas Cartín Reyes, Lead Developer**: contextual Color and Size filters, a desktop sidebar, leaf-category and brand eligibility, and mobile/tablet visibility controls. The implementation reused the existing WordPress commerce stack and separated technical capability from unmeasured business impact.
+
+- [Read the complete case study](case-studies/collection-filter-sidebar.md)
+- Seven recorded layout assertions passed across two collections and one parent category; manual filtering verified product and size updates.
+- Production code, import configuration, detailed QA evidence, and rollback procedures are retained in the private maintenance repository. This public addition contains a sanitized narrative only.
+
+## Case-study index
+
+| Case study | Technical focus | Delivery status |
+| --- | --- | --- |
+| [Melissa Catalog, SEO, and Campaign Update](case-studies/woocommerce-bulk-catalog-upload.md) | Catalog validation, SEO copy, and bilingual campaign design | Files and artwork prepared; final catalog/SEO import not confirmed |
+| [Collection Filtering and Desktop Sidebar](case-studies/collection-filter-sidebar.md) | WooCommerce attributes, YITH, Elementor, PHP/CSS, responsive UX, and release QA | Deployed; representative layout and filtering checks passed |
+
 ## Project focus
 
 - WordPress and WooCommerce storefront management
