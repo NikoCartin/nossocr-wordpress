@@ -78,4 +78,4 @@ Brand logos and trademarks belong to their respective owners and are shown for p
 
 ## Continuous documentation
 
-[Contribution guidance](AGENTS.md) records the Lead Developer's request to document every authorized NossoCR improvement in GitHub, preserve attribution and validation limits, and keep public material sanitized.
+[Contribution guidance](AGENTS.md) requires documenting each completed NossoCR contribution in GitHub after explicit user approval. Downloadable backups are produced only on request. Preserve attribution and validation limits, and keep public material sanitized.

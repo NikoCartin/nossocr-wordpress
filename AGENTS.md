@@ -2,7 +2,9 @@
 
 Nícolas Cartín Reyes (@NikoCartin) is the Lead Developer. Preserve his leadership credit and distinguish assisted implementation or QA execution where relevant.
 
-The Lead Developer requests GitHub documentation for every authorized NossoCR improvement without a separate reminder. Update the corresponding case study and index before closing the contribution, publish through the authorized repository, and verify the remote commit. If publication is blocked, report it as pending rather than claiming completion.
+Document every NossoCR contribution in GitHub only after the work is complete and the user explicitly approves it. Delivering results or finishing tests is not approval. Once approved, update the corresponding case study and index without needing a separate documentation reminder, publish through the authorized repository, and verify the remote commit. If publication is blocked, report it as pending.
+
+Do not generate downloadable backups, ZIP archives or extra delivery packages unless the user requests them. GitHub is the normal record for approved work. This replaces the earlier instruction to document automatically before closing a contribution.
 
 This public repository contains sanitized portfolio material. Keep operational implementation, raw QA records and deployment backups in the private maintenance repository. Never publish customer/order data, cookies, credentials, real nonces, production exports, prices, inventory values, SKU lists or internal implementation identifiers here.
 
