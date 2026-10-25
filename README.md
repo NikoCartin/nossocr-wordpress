@@ -21,20 +21,22 @@ Three workstreams: prepared WooCommerce bulk-import files for 21 new products an
 
 The published artifacts are limited to aggregate results, the reviewed SEO-copy sample, and the approved portfolio graphic. No store exports, SKU lists, prices, inventory values, barcodes, orders, customer data, or credentials are included.
 
-## Featured case study: Collection Filtering and Desktop Sidebar
+## Featured case study: Collection Filtering and Responsive UX
 
-A deployed product-discovery improvement led by **Nícolas Cartín Reyes, Lead Developer**: contextual Color and Size filters, a desktop sidebar, leaf-category and brand eligibility, and mobile/tablet visibility controls. The implementation reused the existing WordPress commerce stack and separated technical capability from unmeasured business impact.
+A deployed product-discovery improvement led by **Nícolas Cartín Reyes, Lead Developer**. Contextual Color and Size filters appear on leaf categories and brand collections, with a desktop sidebar and a mobile/tablet drawer. Parent categories remain navigation-focused.
 
-- [Read the complete case study](case-studies/collection-filter-sidebar.md)
-- Seven recorded layout assertions passed across two collections and one parent category; manual filtering verified product and size updates.
-- Production code, import configuration, detailed QA evidence, and rollback procedures are retained in the private maintenance repository. This public addition contains a sanitized narrative only.
+- [Read the complete sanitized case study](case-studies/collection-filter-sidebar.md)
+- 19/19 responsive checks passed across representative pages at 390 px, 768 px and 1280 px.
+- The automated evidence records an initial HTTP 403 separately from successful DOM assertions; a distinct direct iPhone check returned HTTP 200.
+- Production implementation and detailed operational materials remain in the private maintenance repository. This public case study contains narrative only.
+- Conversion/CRO outcomes were not measured, and filter terms do not guarantee inventory for every exact product variation.
 
 ## Case-study index
 
 | Case study | Technical focus | Delivery status |
 | --- | --- | --- |
 | [Melissa Catalog, SEO, and Campaign Update](case-studies/woocommerce-bulk-catalog-upload.md) | Catalog validation, SEO copy, and bilingual campaign design | Files and artwork prepared; final catalog/SEO import not confirmed |
-| [Collection Filtering and Desktop Sidebar](case-studies/collection-filter-sidebar.md) | WooCommerce attributes, YITH, Elementor, PHP/CSS, responsive UX, and release QA | Deployed; representative layout and filtering checks passed |
+| [Collection Filtering and Responsive UX](case-studies/collection-filter-sidebar.md) | Contextual filtering, responsive archive UX, accessibility, and release QA | Deployed; 19 representative responsive checks passed |
 
 ## Project focus
 
