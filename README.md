@@ -48,6 +48,7 @@ Improvements led by **Nícolas Cartín Reyes, Lead Developer**: mobile product i
 | [Melissa Catalog, SEO, and Campaign Update](case-studies/woocommerce-bulk-catalog-upload.md) | Catalog validation, SEO copy, and bilingual campaign design | Files and artwork prepared; final catalog/SEO import not confirmed |
 | [Collection Filtering and Responsive UX](case-studies/collection-filter-sidebar.md) | Contextual Categories, Brands, Color, and Size filtering with responsive UX and release QA | Deployed; 19 new shop and regression checks passed |
 | [Cart, Checkout and Shipping UX](case-studies/cart-checkout-workflow.md) | Mobile cart clarity, address/contact handling, shipping conditions and workflow QA | Improvements deployed; full workflow approval remains pending |
+| [Platform Maintenance and Smoke QA](case-studies/platform-maintenance-qa.md) | WordPress and WooCommerce maintenance with limited storefront and checkout verification | Updates completed; smoke test passed, full purchase workflow not certified |
 
 ## Project focus
 
