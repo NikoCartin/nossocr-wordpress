@@ -12,7 +12,7 @@ As Lead Developer, Nícolas Cartín Reyes developed the storefront from scratch 
 
 ## Featured case study: NossoCR Melissa Catalog, SEO, and Campaign Update
 
-Three workstreams: prepared WooCommerce bulk-import files for 21 new products and updates to 22 existing products; wrote and validated 21 unique SEO titles and short descriptions; and designed Spanish and English Melissa Reels artwork. The final full catalog and SEO import was not confirmed.
+The initial project covered three workstreams: preparing WooCommerce bulk-import files for 21 new products and updates to 22 existing products; writing and validating 21 unique SEO titles and short descriptions; and designing Spanish and English Melissa Reels artwork. The final full catalog and SEO import was not confirmed. A separate, presentation-only `Sold out` label for a scoped product set was later reported as configured by the user; it did not change stock or pricing, and no conversion impact is claimed.
 
 - [Read the complete case study](case-studies/woocommerce-bulk-catalog-upload.md)
 - [View the sanitized SEO-copy sample](examples/seo_titles_descriptions_sample_en.csv)
@@ -45,7 +45,7 @@ Improvements led by **Nícolas Cartín Reyes, Lead Developer**: mobile product i
 
 | Case study | Technical focus | Delivery status |
 | --- | --- | --- |
-| [Melissa Catalog, SEO, and Campaign Update](case-studies/woocommerce-bulk-catalog-upload.md) | Catalog validation, SEO copy, and bilingual campaign design | Files and artwork prepared; final catalog/SEO import not confirmed |
+| [Melissa Catalog, SEO, and Campaign Update](case-studies/woocommerce-bulk-catalog-upload.md) | Catalog validation, SEO copy, bilingual campaign design and scoped availability messaging | Files and artwork prepared; final catalog/SEO import not confirmed; badge configuration reported by user, not independently visually retested |
 | [Collection Filtering and Responsive UX](case-studies/collection-filter-sidebar.md) | Contextual Categories, Brands, Color, and Size filtering with responsive UX and release QA | Deployed; 19 new shop and regression checks passed |
 | [Cart, Checkout and Shipping UX](case-studies/cart-checkout-workflow.md) | Mobile cart clarity, address/contact handling, shipping conditions and workflow QA | Improvements deployed; full workflow approval remains pending |
 | [Platform Maintenance and Smoke QA](case-studies/platform-maintenance-qa.md) | WordPress and WooCommerce maintenance with limited storefront and checkout verification | Updates completed; smoke test passed, full purchase workflow not certified |
@@ -69,7 +69,7 @@ Nícolas Cartín Reyes, Lead Developer
 
 ## Curated source
 
-The reviewed export contained a small set of site-specific customizations saved in WordPress. Sanitized excerpts are in [`custom-code/`](custom-code/): one active PHP snippet, two Customizer CSS entries, and two Elementor HTML widgets with the live WhatsApp number replaced by `WHATSAPP_NUMBER`. No custom JavaScript or standalone custom theme/plugin source was identified in the reviewed files.
+The initial reviewed export contained a small set of site-specific customizations saved in WordPress. Sanitized excerpts from that review are in [`custom-code/`](custom-code/): one active PHP snippet, two Customizer CSS entries, and two Elementor HTML widgets with the live WhatsApp number replaced by `WHATSAPP_NUMBER`. Later feature updates are documented in the case studies. No custom JavaScript or standalone custom theme/plugin source was identified in the reviewed files.
 
 ## Security and data handling
 

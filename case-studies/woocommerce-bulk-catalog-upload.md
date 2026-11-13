@@ -3,7 +3,7 @@
 **Project:** NossoCR, a multi-brand fashion retailer in Costa Rica
 **Platform:** WordPress and WooCommerce
 **Role:** Lead Developer
-**Date:** October 2026
+**Date:** October-November 2026
 
 ## Overview
 
@@ -46,6 +46,10 @@ The brief was to announce that the Melissa collection had been updated and commu
 
 **Final format:** Two language versions, each 1080 x 1920 pixels.
 
+## 4. Product availability messaging, November 2026
+
+A separate, presentation-only WooCommerce update adds a clear `Sold out` label for a narrowly scoped set of products when WooCommerce reports them unavailable. It replaces the sale badge only in those cases and does not change pricing or stock records. The user confirmed the code was configured in WordPress; an independent live visual retest was not recorded during this documentation update. No conversion or sales impact is claimed.
+
 ## Results and deliverables
 
 | Workstream | Prepared or completed output |
@@ -53,6 +57,7 @@ The brief was to announce that the Melissa collection had been updated and commu
 | Bulk import | 840 catalog rows analyzed; templates prepared for 21 new products and updates to 22 existing products; 117 relevant photos linked |
 | SEO update | 21 unique titles and short descriptions prepared and validated; final import not confirmed |
 | Design | Spanish and English 1080 x 1920 Melissa Reels artwork |
+| Availability messaging | Scoped `Sold out` badge; user-reported as configured; independent live visual verification not recorded |
 
 ## Lessons learned
 
