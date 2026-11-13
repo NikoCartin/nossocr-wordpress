@@ -12,7 +12,7 @@ As Lead Developer, Nícolas Cartín Reyes developed the storefront from scratch 
 
 ## Featured case study: NossoCR Melissa Catalog, SEO, and Campaign Update
 
-The initial project covered three workstreams: preparing WooCommerce bulk-import files for 21 new products and updates to 22 existing products; writing and validating 21 unique SEO titles and short descriptions; and designing Spanish and English Melissa Reels artwork. The final full catalog and SEO import was not confirmed. A separate, presentation-only `Sold out` label for a scoped product set was later reported as configured by the user; it did not change stock or pricing, and no conversion impact is claimed.
+The initial project covered three workstreams: preparing WooCommerce bulk-import files for 21 new products and updates to 22 existing products; writing and validating 21 unique SEO titles and short descriptions; and designing Spanish and English Melissa Reels artwork. The final full catalog and SEO import was not confirmed. Later presentation-only updates added a scoped `Sold out` label and refined selected product-page accents to the approved brand palette. The label and styling were checked on the live site; stock, sale amounts, and prices were not changed, and no conversion impact is claimed.
 
 - [Read the complete case study](case-studies/woocommerce-bulk-catalog-upload.md)
 - [View the sanitized SEO-copy sample](examples/seo_titles_descriptions_sample_en.csv)
@@ -45,7 +45,7 @@ Improvements led by **Nícolas Cartín Reyes, Lead Developer**: mobile product i
 
 | Case study | Technical focus | Delivery status |
 | --- | --- | --- |
-| [Melissa Catalog, SEO, and Campaign Update](case-studies/woocommerce-bulk-catalog-upload.md) | Catalog validation, SEO copy, bilingual campaign design and scoped availability messaging | Files and artwork prepared; final catalog/SEO import not confirmed; badge configuration reported by user, not independently visually retested |
+| [Melissa Catalog, SEO, and Campaign Update](case-studies/woocommerce-bulk-catalog-upload.md) | Catalog validation, SEO copy, bilingual campaign design, brand-color refinement and scoped availability messaging | Files and artwork prepared; final catalog/SEO import not confirmed; live badge and styling checks recorded; no conversion result claimed |
 | [Collection Filtering and Responsive UX](case-studies/collection-filter-sidebar.md) | Contextual Categories, Brands, Color, and Size filtering with responsive UX and release QA | Deployed; 19 new shop and regression checks passed |
 | [Cart, Checkout and Shipping UX](case-studies/cart-checkout-workflow.md) | Mobile cart clarity, address/contact handling, shipping conditions and workflow QA | Improvements deployed; full workflow approval remains pending |
 | [Platform Maintenance and Smoke QA](case-studies/platform-maintenance-qa.md) | WordPress and WooCommerce maintenance with limited storefront and checkout verification | Updates completed; smoke test passed, full purchase workflow not certified |

@@ -48,7 +48,15 @@ The brief was to announce that the Melissa collection had been updated and commu
 
 ## 4. Product availability messaging, November 2026
 
-A separate, presentation-only WooCommerce update adds a clear `Sold out` label for a narrowly scoped set of products when WooCommerce reports them unavailable. It replaces the sale badge only in those cases and does not change pricing or stock records. The user confirmed the code was configured in WordPress; an independent live visual retest was not recorded during this documentation update. No conversion or sales impact is claimed.
+A separate, presentation-only WooCommerce update adds a clear `Sold out` label for a narrowly scoped set of products when WooCommerce reports them unavailable. It replaces the sale badge only in those cases and does not change pricing or stock records. The user initially confirmed the code was configured in WordPress; a later live-site check is recorded in the follow-up below. No conversion or sales impact is claimed.
+
+## 5. Brand color refinement, November 2026
+
+After the approved Nosso palette review, relevant product-title hover and price text accents were aligned to the brand's warm brown. Product detail pages also use the brown treatment for the sale badge, price text and dynamically displayed selected-variation availability. The existing `Sold out` label remains distinct, while sale and stock values, WhatsApp styling, and checkout behavior are unchanged. Product cards retain their separate sale-badge treatment.
+
+- Verified the product-page appearance in a desktop browser, including a selected available variation and its dynamic availability message, without adding it to the cart.
+- Checked normal public page responses for desktop and mobile user agents after cache clearing. Targeted Sold out pages retained their label and the active PDP styling rules across cache MISS and HIT responses.
+- Mobile validation used an HTTP response with a mobile user agent, not a physical phone or Safari. No conversion, sales or performance outcome is claimed.
 
 ## Results and deliverables
 
